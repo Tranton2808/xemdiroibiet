@@ -2,7 +2,7 @@
 
 :root {
   --header-height: 3rem;
-  --hue-color: 22; /*Orange: 22, Green: 112, GreenLight: 160, Purple: 256, Pink: 300, yellow: 65 */
+  --hue-color: 300; /*Orange: 22, Green: 112, GreenLight: 160, Purple: 256, Pink: 300, yellow: 65 */
 
   /*HSL color mode*/
   --first-color: hsl(var(--hue-color), 100%, 33%);
@@ -21,9 +21,9 @@
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
   --h3-font-size: 1.125rem;
-  --normal-font-size: 1rem;
-  --small-font-size: 0.9rem;
-  --smaller-font-size: 0.7rem;
+  --normal-font-size: 0.913rem;
+  --small-font-size: 0.813rem;
+  --smaller-font-size: 0.713rem;
 
   --font-medium: 400;
   --font-semi-bold: 700;
