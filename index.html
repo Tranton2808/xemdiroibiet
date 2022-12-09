@@ -442,26 +442,44 @@
               </div>
             </div>
           </div>
-          <form action="" class="contact__form grid">
+          <form class="contact__form grid" method="post">
             <div class="contact__inputs grid">
               <div class="contact__content">
-                <label for="" class="contact__label">Họ Tên</label>
-                <input type="text" class="contact__input" />
+                <label class="contact__label">Họ Tên</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  class="contact__input"
+                  required
+                />
               </div>
               <div class="contact__content">
-                <label for="" class="contact__label">Email</label>
-                <input type="email" class="contact__input" />
+                <label class="contact__label">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  class="contact__input"
+                  required
+                />
               </div>
             </div>
             <div class="contact__content">
-              <label for="" class="contact__label">Dự án</label>
-              <input type="text" class="contact__input" />
+              <label class="contact__label">Dự án</label>
+              <input
+                type="text"
+                id="project"
+                name="project"
+                class="contact__input"
+                required
+              />
             </div>
             <div class="contact__content">
-              <label for="" class="contact__label">Tin nhắn</label>
+              <label class="contact__label">Tin nhắn</label>
               <textarea
-                name=""
-                id=""
+                id="message"
+                name="message"
                 cols="0"
                 rows="7"
                 class="contact__input"
@@ -469,9 +487,9 @@
             </div>
 
             <div>
-              <a href="#" class="button button--flex">
+              <button type="submit" class="button button--flex" id="button">
                 Gửi lời nhắn <i class="uil uil-message button__icon"></i>
-              </a>
+              </button>
             </div>
           </form>
         </div>
@@ -516,8 +534,10 @@
         <p class="footer__copy">&#169; Hế sờ lô baby.</p>
       </div>
     </footer>
-    <!-- ========== Scroll on top ========== -->
+
     <!-- ========== JS file ========== -->
+    <!-- ========== Send mail ========== -->
+
     <script src="assets/script.js"></script>
   </body>
 </html>
